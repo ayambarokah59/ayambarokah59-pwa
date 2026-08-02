@@ -198,6 +198,23 @@ target="_blank">
     <p>Halal • Fresh • Harga Bersahabat</p>
     <p>&copy; 2026 Rumah Potong Barokah</p>
 </footer>
+
+<script>
+function cariProduk() {
+    let input = document.getElementById("cariProduk");
+    let filter = input.value.toUpperCase();
+    let produk = document.getElementsByClassName("produk-item");
+
+    for (let i = 0; i < produk.length; i++) {
+        let txt = produk[i].textContent || produk[i].innerText;
+        if (txt.toUpperCase().indexOf(filter) > -1) {
+            produk[i].style.display = "";
+        } else {
+            produk[i].style.display = "none";
+        }
+    }
+}
+  </script>
   
 </body>
 </html>
