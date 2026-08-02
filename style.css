@@ -34,11 +34,6 @@ p{
     font-size:20px;
 }
 
-header{
-    background:#d32f2f;
-    padding:15px;
-}
-
 nav{
     display:flex;
     justify-content:center;
