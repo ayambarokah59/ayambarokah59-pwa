@@ -99,3 +99,9 @@ th{
 tr:nth-child(even){
     background:#f7f7f7;
 }
+
+.galeri{
+    width:100%;
+    border-radius:15px;
+    margin:15px 0;
+}
