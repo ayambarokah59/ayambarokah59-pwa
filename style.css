@@ -151,3 +151,9 @@ footer p{
     border-radius:10px;
     font-size:16px;
     }
+
+.wa-link{
+    color:#25D366;
+    text-decoration:none;
+    font-weight:bold;
+}
