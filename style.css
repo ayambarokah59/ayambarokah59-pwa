@@ -142,3 +142,12 @@ footer p{
     margin:8px 0;
     font-size:16px;
 }
+
+#cariProduk{
+    width:100%;
+    padding:12px;
+    margin:15px 0;
+    border:1px solid #ccc;
+    border-radius:10px;
+    font-size:16px;
+    }
