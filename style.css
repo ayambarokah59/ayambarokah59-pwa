@@ -122,3 +122,9 @@ tr:nth-child(even){
     font-size:30px;
     box-shadow:0 4px 10px rgba(0,0,0,.3);
 }
+
+iframe{
+    width:100%;
+    border-radius:15px;
+    margin-top:15px;
+}
