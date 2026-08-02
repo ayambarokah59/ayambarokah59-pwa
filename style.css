@@ -140,3 +140,18 @@ footer p{
     border-radius:10px;
     font-size:16px;
 }
+
+.wa-link{
+    display:inline-block;
+    margin-top:15px;
+    background:#25D366;
+    color:white;
+    padding:12px 20px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.wa-link:hover{
+    background:#1fa855;
+ }
